@@ -11,10 +11,16 @@
         <h1>猜歌词大挑战</h1>
         <div id="display-area"></div>
         <input type="text" id="guess-input" maxlength="1" placeholder="Enter a character">
-        <button id="submit-button">Submit</button>
-        <button id="reset-button">Reset</button>
+        <div id="button-container">
+            <button id="submit-button">Submit</button>
+            <button id="reset-button">Reset</button>
+            <button id="show-button">Show</button>
+        </div>
+        <input type="text" id="title-guess-input" placeholder="Guess the song title">
+        <button id="title-submit-button">Submit Title Guess</button>
         <div id="guess-counter">Guesses: 0</div>
         <div id="wrong-guesses">Wrong guesses: </div>
+        <div id="win-message"></div>
     </div>
     <script src="scripts/app.js"></script>
 </body>

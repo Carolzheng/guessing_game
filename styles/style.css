@@ -14,7 +14,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 500px; /* Increased width */
 }
 
 h1 {
@@ -24,44 +24,31 @@ h1 {
 }
 
 #display-area {
-    font-size: 24px;
+    font-size: 14px; 
     margin-bottom: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: #333;
+    word-wrap: break-word; /* Ensure long words wrap */
 }
 
 #guess-input {
-    font-size: 18px;
+    font-size: 16px; 
     padding: 10px;
     border: 2px solid #ddd;
     border-radius: 5px;
-    width: calc(100% - 24px);
-    box-sizing: border-box;
 }
 
-#submit-button {
-    font-size: 18px;
+button {
+    font-size: 16px; 
     padding: 10px 20px;
+    margin: 5px;
     border: none;
     border-radius: 5px;
     background-color: #fcb69f;
     color: white;
     cursor: pointer;
-    margin-top: 10px;
 }
 
-#submit-button:hover {
-    background-color: #ff7e5f;
-}
-
-#guess-counter {
-    font-size: 18px;
-    margin-top: 20px;
-    color: #333;
-}
-
-#wrong-guesses {
-    font-size: 18px;
-    margin-top: 20px;
-    color: #333;
+button:hover {
+    background-color: #ffecd2;
 }
