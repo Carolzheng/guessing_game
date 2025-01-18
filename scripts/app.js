@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function startGame(data) {
         song = data[Math.floor(Math.random() * data.length)];
         console.log(`Starting game with song: ${song.name}`); // Print the title name in the console
-        lyrics = song.lyric.slice(0, 30).join('\n'); // Limit to the first 30 lines and combine into a single string with new lines
+        lyrics = song.lyric.slice(0, 20).join('\n'); // Limit to the first 30 lines and combine into a single string with new lines
         maskedLyrics = lyrics.replace(/[\u4e00-\u9fa5]/g, '■'); // Mask the Chinese characters
         guessedCharacters = [];
         wrongGuesses = [];
