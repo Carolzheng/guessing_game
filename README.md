@@ -2,7 +2,11 @@
 
 ## Overview
 
-Simpe Game
+Simple Game
+
+## Play the Game
+
+You can play the game [here](https://Carolzheng.github.io/guessing_game).
 
 ## License
 
